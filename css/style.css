@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ellipse {
+    width: 100px;
+    height: 30px;
+    border: 1px solid red;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.ellipse p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   
+}
+
+.long-text {
+    overflow: auto;
+    width: 400px;
+    height: 600px;
+   
+    border: 5px solid crimson;
+}
+
+
+.another {
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 500px;
+    height: 500px;
+    border: 10px dashed palevioletred;
+}
+.container{
+    background-color: antiquewhite;
+    margin: 10px 130px;
+    display: flex;
+    gap: 2%;
+}
