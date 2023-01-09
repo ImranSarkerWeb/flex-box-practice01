@@ -40,3 +40,26 @@
     display: flex;
     gap: 2%;
 }
+
+.main-box > div{
+    background-color: rgb(185, 70, 181);
+    height: 150px;
+    width: 150px;
+    border: 2px solid orange;
+}
+
+.main-box>div>.inner{
+    background-color:lightskyblue;
+    height: inherit;
+    width: inherit;
+    border: inherit;
+}
+.inner{
+    transform: scale(.8) rotate(45deg);
+}
+.inner>p{
+    font-size: larger;
+    color:antiquewhite;
+    padding-top: 4px;
+    transform: rotate(-45deg);
+}
