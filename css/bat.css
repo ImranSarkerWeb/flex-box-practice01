@@ -15,7 +15,7 @@
     rotate: -60deg;
 }
 
-.ball
+.ball-1
 {
     height: 50px;
     width: 50px;
@@ -26,6 +26,7 @@
     transition: transform 1s ease-out 0.3s;
 }
 
-.field:hover .ball{
+.field:hover .ball-1{
     transform: translate(900px, -100px);
+    animation: name duration timing-function delay iteration-count direction fill-mode;
 }
