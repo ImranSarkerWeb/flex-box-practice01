@@ -15,12 +15,13 @@ header{
     display: flex;
 
     /* by default its direction is row but we can change its direction by using : column, column-reverse, row-reverse */
-
+    height: 500px;
     flex-direction: row;
 
-    justify-content: center;
-
+    justify-content: flex-end;
+    flex-wrap: wrap;
     align-items: baseline;
+    align-content: flex-start;
 
 
 }
@@ -30,9 +31,11 @@ header{
     font-size: 35px;
     padding: 20px;
     margin: 10px;
+    flex: 1 1 25%;
 }
 
-.item-3{
-    height: 250px;
+/* .item-3{
+    
+    height: 150px;
     font-size: 48px;
-}
+} */
