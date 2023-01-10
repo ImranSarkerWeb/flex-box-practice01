@@ -33,3 +33,7 @@ a{
 .tra-head:hover{
     transform: scale(1.2) rotate(360deg);
 }
+div{
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+}
